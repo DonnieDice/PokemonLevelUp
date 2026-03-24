@@ -9,7 +9,7 @@ PLU = PLU or {}
 
 local ADDON_VERSION = "2.0.0"
 local ADDON_NAME = "PokemonLevelUp"
-local TITLE = "[|cffff0000P|r|cffff4d4dokemon|r |cffff0000L|r|cffff4d4devel-|r|cffff0000U|r|cffff4d4dp!|r]"
+local TITLE = "[|cffff0000P|r|cffffffffokemon |r|cffff0000L|r|cffffffffevel-|r|cffff0000U|r|cffff0000!|r]"
 local SOUND_PATHS = {
     high = "Interface\\Addons\\PokemonLevelUp\\sounds\\pokemon_high.ogg",
     medium = "Interface\\Addons\\PokemonLevelUp\\sounds\\pokemon_med.ogg",
