@@ -1,0 +1,15 @@
+## Interface: 30403
+## Version: 2.0.0
+## Title: |cffff0000P|r|cffff4d4dokemon|r |cffff0000L|r|cffff4d4devel-|r|cffff0000U|r|cffff4d4dp!|r
+## Notes: Play a Pokemon-inspired level-up sound!  |n|r  |cffff0000/plu -|r Open help  |n|r   |cffff0000By DonnieDice|r
+## Author: DonnieDice
+## SavedVariables: PLUSettings
+
+## X-Category: UI Media, Questing & Leveling, Audio & Video, Miscellaneous
+## X-Website: https://github.com/donniedice/PokemonLevelUp
+## X-Curse-Project-ID: 399043
+## X-Wago-ID: ZQ6aVPKW
+## X-WoWI-ID: 26261
+
+data\locales.lua
+data\core.lua

@@ -1,0 +1,194 @@
+name: Package and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+env:
+  CF_API_KEY: ${{ secrets.CF_API_KEY }}
+  WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
+  WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+  GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Clone Project
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git user
+        run: |
+          git config --global user.name "donniedice"
+          git config --global user.email "donniedice@protonmail.com"
+
+      - name: Set Release Type
+        id: set_release_type
+        run: |
+          TAG_NAME=${{ github.ref }}
+          if [[ "$TAG_NAME" == *"beta"* ]]; then
+            echo "release_type=beta" >> $GITHUB_OUTPUT
+          elif [[ "$TAG_NAME" == *"alpha"* ]]; then
+            echo "release_type=alpha" >> $GITHUB_OUTPUT
+          else
+            echo "release_type=release" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Extract Version from TOC
+        id: extract_version
+        run: |
+          if [ -f "PokemonLevelUp.toc" ]; then
+            version=$(grep -E "^## Version:" PokemonLevelUp.toc | awk '{print $3}')
+            if [ -z "$version" ]; then
+              version="${{ github.ref_name }}"
+            fi
+          else
+            version="${{ github.ref_name }}"
+          fi
+          echo "Extracted version: $version"
+          echo "version=$version" >> $GITHUB_OUTPUT
+
+      - name: Extract Changelog
+        id: extract_changelog
+        run: |
+          if [ -f "docs/CHANGES.md" ]; then
+            CHANGELOG=$(cat docs/CHANGES.md | head -20 | jq -Rs .)
+            echo "changelog=$CHANGELOG" >> $GITHUB_OUTPUT
+          else
+            echo "changelog=\"No changelog available\"" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Package and Release
+        uses: BigWigsMods/packager@master
+        with:
+          release-type: ${{ steps.set_release_type.outputs.release_type }}
+
+      - name: Send Discord Notification
+        if: success() && secrets.DISCORD_WEBHOOK != ''
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          RELEASE_TYPE="${{ steps.set_release_type.outputs.release_type }}"
+          if [ "$RELEASE_TYPE" = "alpha" ]; then
+            EMOJI="🔬"
+            TYPE_TEXT=" Alpha"
+            COLOR=16711680
+          elif [ "$RELEASE_TYPE" = "beta" ]; then
+            EMOJI="🧪"
+            TYPE_TEXT=" Beta"
+            COLOR=16744448
+          else
+            EMOJI="⚡"
+            TYPE_TEXT=""
+            COLOR=16763141
+          fi
+
+          VERSION="${{ steps.extract_version.outputs.version }}"
+          if [ -z "$VERSION" ]; then
+            VERSION="${{ github.ref_name }}"
+          fi
+
+          CHANGELOG='${{ steps.extract_changelog.outputs.changelog }}'
+
+          JSON_PAYLOAD=$(jq -n \
+            --arg emoji "$EMOJI" \
+            --arg type_text "$TYPE_TEXT" \
+            --arg version "$VERSION" \
+            --arg tag "${{ github.ref_name }}" \
+            --argjson changelog "$CHANGELOG" \
+            --argjson color "$COLOR" \
+            '{
+              "content": "",
+              "username": "PLU Release",
+              "avatar_url": "https://raw.githubusercontent.com/donniedice/PokemonLevelUp/main/media/logo.png",
+              "embeds": [{
+                "title": "\($emoji) PLU | Pokemon Level-Up! - \($version)\($type_text)",
+                "description": "**A wild level appeared!** A new version of PLU has been released!\n\n🎵 **What'\''s New:**\n\($changelog)\n\n**Bring a Pokemon-inspired level-up jingle to your WoW adventures!**",
+                "url": "https://github.com/donniedice/PokemonLevelUp/releases/tag/\($tag)",
+                "color": $color,
+                "thumbnail": {
+                  "url": "https://raw.githubusercontent.com/donniedice/PokemonLevelUp/main/media/logo.png"
+                },
+                "fields": [
+                  {
+                    "name": "📥 Downloads",
+                    "value": "[CurseForge](https://www.curseforge.com/wow/addons/pokemonlevelup)\n[GitHub](https://github.com/donniedice/PokemonLevelUp)",
+                    "inline": true
+                  },
+                  {
+                    "name": "🎮 Compatibility",
+                    "value": "✅ Retail\n✅ Classic Era\n✅ Burning Crusade\n✅ Wrath",
+                    "inline": true
+                  },
+                  {
+                    "name": "💬 Support",
+                    "value": "[Join Discord](https://discord.gg/N7kdKAHVVF)\n[Report Issues](https://github.com/donniedice/PokemonLevelUp/issues)",
+                    "inline": true
+                  }
+                ],
+                "footer": {
+                  "text": "RGX Mods - RealmGX Community",
+                  "icon_url": "https://raw.githubusercontent.com/donniedice/SimpleQuestPlates/main/images/kiwi.gif"
+                },
+                "timestamp": "'$(date -u +%Y-%m-%dT%H:%M:%S.000Z)'"
+              }]
+            }')
+
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "$JSON_PAYLOAD" \
+               "$DISCORD_WEBHOOK"
+
+      - name: Send Discord Failure Notification
+        if: failure() && secrets.DISCORD_WEBHOOK != ''
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          VERSION="${{ steps.extract_version.outputs.version }}"
+          if [ -z "$VERSION" ]; then
+            VERSION="Unknown"
+          fi
+
+          JSON_PAYLOAD=$(jq -n \
+            --arg version "$VERSION" \
+            --arg run_id "${{ github.run_id }}" \
+            '{
+              "content": "",
+              "username": "PLU Build Failed",
+              "avatar_url": "https://raw.githubusercontent.com/donniedice/PokemonLevelUp/main/media/logo.png",
+              "embeds": [{
+                "title": "❌ PLU Build Failed",
+                "description": "The release workflow encountered an error",
+                "url": "https://github.com/donniedice/PokemonLevelUp/actions/runs/\($run_id)",
+                "color": 15158332,
+                "fields": [
+                  {
+                    "name": "Version",
+                    "value": $version,
+                    "inline": true
+                  },
+                  {
+                    "name": "Workflow",
+                    "value": "[View Logs](https://github.com/donniedice/PokemonLevelUp/actions/runs/\($run_id))",
+                    "inline": true
+                  }
+                ],
+                "footer": {
+                  "text": "RGX Mods - Build System",
+                  "icon_url": "https://raw.githubusercontent.com/donniedice/SimpleQuestPlates/main/images/kiwi.gif"
+                },
+                "timestamp": "'$(date -u +%Y-%m-%dT%H:%M:%S.000Z)'"
+              }]
+            }')
+
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "$JSON_PAYLOAD" \
+               "$DISCORD_WEBHOOK"
