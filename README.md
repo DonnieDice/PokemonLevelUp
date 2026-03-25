@@ -1,6 +1,6 @@
 # <span style="color: #ffcb05;">⚡ </span> <span style="color: #8b4b5c;">R</span><span style="color: #8b4b5c;">G</span><span style="color: #8b4b5c;">X</span> <span style="color: #ffcb05;">| </span> <span style="color: #ffcb05;">P</span><span style="color: #3b4cca;">okemon </span><span style="color: #ff0000;">L</span><span style="color: #3b4cca;">evel-</span><span style="color: #2a9d3f;">U</span><span style="color: #3b4cca;">p!</span>
 
-![PLU Logo](https://raw.githubusercontent.com/donniedice/PokemonLevelUp/main/images/PLU_logo_400x400.png)
+![PLU Logo](https://github.com/DonnieDice/PokemonLevelUp/blob/master/media/logo.png?raw=true)
 
 ## ![](https://github.com/donniedice/SimpleQuestPlates/blob/main/images/kiwi.gif?raw=true) <span style="color: #8b4b5c;">R</span><span style="color: #8b4b5c;">G</span><span style="color: #8b4b5c;">X</span> <span style="color: #4ecdc4;">Mods</span> <span style="color: #3598db;">-</span> <span style="color: #8b4b5c;">R</span><span style="color: #6b8fb0;">ealm</span><span style="color: #8b4b5c;">G</span><span style="color: #8b4b5c;">X</span> <span style="color: #6b8fb0;">Community Project</span>
 
