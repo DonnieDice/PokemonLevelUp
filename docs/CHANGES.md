@@ -1,3 +1,8 @@
+v2.0.2
+
+- Added missing `jq` installation step required for Discord notification parsing
+- Fixed workflow runtime error where `jq` was not available on the runner
+
 v2.0.1
 
 - Fixed GitHub Actions workflow `if` conditionals to use canonical expression syntax
