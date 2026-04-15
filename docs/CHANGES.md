@@ -1,3 +1,8 @@
+v2.0.1
+
+- Fixed GitHub Actions workflow `if` conditionals to use canonical expression syntax
+- Removed redundant `${{ }}` wrappers from conditional steps
+
 v2.0.0
 
 - Renamed addon files and package metadata from `PkmnLU` to `PokemonLevelUp`
