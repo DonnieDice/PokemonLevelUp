@@ -1,13 +1,13 @@
 --=====================================================================================
 -- PLU | Pokemon Level Up! - core.lua
--- Version: 2.0.0
+-- Version: 2.0.3
 -- Author: DonnieDice
 -- Description: Plays Pokemon-themed level-up sounds and replaces the default WoW sound
 --=====================================================================================
 
 PLU = PLU or {}
 
-local ADDON_VERSION = "2.0.0"
+local ADDON_VERSION = "2.0.3"
 local ADDON_NAME = "PokemonLevelUp"
 local TITLE = "[|cffff0000P|r|cffffffffokemon |r|cffff0000L|r|cffffffffevel-|r|cffff0000U|r|cffff0000!|r]"
 local SOUND_PATHS = {

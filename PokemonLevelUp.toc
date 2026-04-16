@@ -1,5 +1,5 @@
 ## Interface: 11508,40402,50503,110207,120000,120001
-## Version: 2.0.2
+## Version: 2.0.3
 ## Title: |cffff0000P|r|cffffffffokemon |r|cffff0000L|r|cffffffffevel-|r|cffff0000U|r|cffff0000!|r
 ## Notes: Play a Pokemon-inspired level-up sound!  |n|r  |cffff0000/plu -|r Open help  |n|r   |cffff0000By DonnieDice|r
 ## Author: DonnieDice
