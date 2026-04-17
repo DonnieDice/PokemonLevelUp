@@ -75,6 +75,7 @@
 
 ---
 
+<a id="support"></a>
 ## <span style="color:#ffcb05">💖 Support </span> <span style="color:#8B1538">R</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span> <span style="color:#4ecdc4">Mods</span>
 
 <div align="center">
@@ -105,6 +106,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 
 ---
 
+<a id="features"></a>
 ## <span style="color:#ffcb05">✨ Features</span>
 
 <div align="center">
@@ -143,7 +145,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 </td>
 <td width="50%" valign="top">
 
-### <span style="color:#4ecdc4">🎮 WoW Compatibility</span>
+## <span style="color:#4ecdc4">🎮 WoW Compatibility</span>
 - **<span style="color:#2dc26b">Midnight</span>** (Retail)
 - **<span style="color:#ffcb05">The War Within</span>**
 - **<span style="color:#58be81">Mists of Pandaria Classic</span>**
@@ -160,6 +162,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 
 ---
 
+<a id="quick-start"></a>
 ## <span style="color:#ffcb05">🚀 Quick Start</span>
 
 1. **<span style="color:#2dc26b">Install</span>** <span style="color:#ffcb05">P</span><span style="color:#3b4cca">okemon </span><span style="color:#ff0000">L</span><span style="color:#3b4cca">evel-</span><span style="color:#2a9d3f">U</span><span style="color:#3b4cca">p!</span> <span style="color:#e67e23">from your preferred platform</span>
@@ -170,6 +173,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 
 ---
 
+<a id="command-reference"></a>
 ## <span style="color:#ffcb05">📋 Command Reference</span>
 
 <span style="color:#e67e23">Use</span> <span style="color:#2dc26b">`/plu`</span> <span style="color:#e67e23">followed by</span><span style="color:#3598db">:</span>
@@ -191,6 +195,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 
 ---
 
+<a id="compatibility"></a>
 ## <span style="color:#ffcb05">📋 Compatibility</span>
 
 <div align="center">
@@ -209,6 +214,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 
 ---
 
+<a id="installation"></a>
 ## <span style="color:#ffcb05">📥 Installation</span>
 
 1. **<span style="color:#2dc26b">Download</span>** <span style="color:#e67e23">from your preferred platform</span><span style="color:#3598db">:</span>
@@ -228,8 +234,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 
 ## <span style="color:#ffcb05">🆕 What's New in v2.0.3</span>
 
-<details>
-<summary><strong><span style="color:#ffcb05">🎉 Click to see the latest updates!</span></strong></summary>
+<span style="color:#ffcb05">🎉 Click to see the latest updates!</span>
 
 ### <span style="color:#4ecdc4">🆕 Major Updates</span>
 - <span style="color:#2dc26b">✅ **Multi-language support**</span> <span style="color:#e67e23">— English, German, French, Spanish, Russian</span>
@@ -243,7 +248,6 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 - <span style="color:#ff6b6b">✅ **Consistent RGX Mods branding**</span>
 - <span style="color:#b96ad9">✅ **Updated documentation**</span>
 
-</details>
 
 ---
 
@@ -338,6 +342,6 @@ _<span style="color:#e67e23">"May your levels be swift and your catches be legen
 
 [<span style="color:#05dffa">BLU</span>](https://github.com/donniedice/BLU) | [<span style="color:#05dffa">BLU Classic</span>](https://github.com/donniedice/BLU_Classic) | [<span style="color:#9b59b6">CCU</span>](https://github.com/donniedice/CoordinationCloakUtility) | [<span style="color:#ffe568">FFLU</span>](https://github.com/donniedice/FFLU) | [<span style="color:#58be81">PetBuddy2</span>](https://github.com/donniedice/PetBuddy2) | [<span style="color:#e74c3c">RND</span>](https://github.com/donniedice/remove_nameplate_debuffs) | [<span style="color:#58be81">SQP</span>](https://github.com/donniedice/SimpleQuestPlates) | [<span style="color:#8B4513">SRLU</span>](https://github.com/donniedice/SRLU)
 
-**<span style="color:#8B1538">🎮</span> <span style="color:#8B1538">R</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span> <span style="color:#4ecdc4">Mods</span> <span style="color:#3598db">-</span> <span style="color:#e67e23">Powered by</span> [<span style="color:#8B1538">R</span><span style="color:#7598b6">ealm</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span>](https://realmgx.com) <span style="color:#e67e23">Community</span>**
+**<img src="https://raw.githubusercontent.com/donniedice/SimpleQuestPlates/main/images/kiwi.gif" width="18" height="18"> <span style="color:#8B1538">R</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span> <span style="color:#4ecdc4">Mods</span> <span style="color:#3598db">-</span> <span style="color:#e67e23">Powered by</span> [<span style="color:#8B1538">R</span><span style="color:#7598b6">ealm</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span>](https://realmgx.com) <span style="color:#e67e23">Community</span>**
 
 </div>
