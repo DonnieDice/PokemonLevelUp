@@ -238,7 +238,7 @@ jobs:
 
           jq -n \
             --arg username "PKMLU Releases" \
-            --arg avatar_url "https://raw.githubusercontent.com/DonnieDice/PokemonLevelUp/main/media/logo.png" \
+            --arg avatar_url "https://raw.githubusercontent.com/DonnieDice/PokemonLevelUp/master/media/logo.png" \
             --arg title "$title" \
             --arg url "$release_url" \
             --arg description "$description" \
@@ -280,7 +280,7 @@ jobs:
             --arg timestamp "${{ steps.version.outputs.timestamp }}" \
             '{
               username: "PKMLU Build Failed",
-              avatar_url: "https://raw.githubusercontent.com/DonnieDice/PokemonLevelUp/main/media/logo.png",
+              avatar_url: "https://raw.githubusercontent.com/DonnieDice/PokemonLevelUp/master/media/logo.png",
               embeds: [{
                 title: "❌ PKMLU Build Failed",
                 description: "The release workflow encountered an error",
