@@ -9,11 +9,10 @@ local RGX = assert(_G.RGXFramework, "PLU: RGX-Framework not loaded")
 
 PLU = PLU or {}
 
-local ADDON_VERSION = "3.0.0"
+local ADDON_VERSION = "3.0.1"
 local ADDON_NAME = "PokemonLevelUp"
-local ICON_PATH = "|Tinterface/addons/PokemonLevelUp/media/icon:16:16|t"
-local PREFIX = ICON_PATH .. " |cffff0000PLU:|r"
-local TITLE = "[|cffff0000P|r|cffffffffokemon|r |cffff0000L|r|cffffffffevel-|r|cffff0000U|r|cffff0000!|r]"
+local PREFIX = "|Tinterface/addons/PokemonLevelUp/media/icon:16:16|t - |cffffffff[|r|cffff0000PLU|r|cffffffff]|r "
+local TITLE = "|Tinterface/addons/PokemonLevelUp/media/icon:18:18|t [|cffff0000P|r|cffffffffokemon|r |cffff0000L|r|cffffffffevel-|r|cffff0000U|r|cffff0000!|r]"
 
 PLU.version = ADDON_VERSION
 PLU.addonName = ADDON_NAME
