@@ -5,7 +5,7 @@
 ## Author: DonnieDice
 ## Category: RGX
 ## Group: RGX
-## IconTexture: Interface\AddOns\PokemonLevelUp\media\icon
+## IconTexture: Interface\AddOns\PokemonLevelUp\media\icon.tga
 ## SavedVariables: PLUSettings
 ## RequiredDeps: RGX-Framework
 
