@@ -5,7 +5,7 @@
 
 <img src="media/logo.png" alt="PLU Logo" width="200">
 
-[![PLU](https://img.shields.io/badge/PLU-Pokemon%20Level%20Up!-ffcb05?style=for-the-badge&logo=github&logoColor=white)](https://github.com/donniedice/PokemonLevelUp)
+[![PLU](https://img.shields.io/badge/PLU-Pokemon%20Level%20Up!-ffcb05?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RGXMods/PokemonLevelUp)
 [![RGX Mods](https://img.shields.io/badge/RGX-Mods%20Collection-8B1538?style=for-the-badge&logo=github&logoColor=white)](https://discord.gg/N7kdKAHVVF)
 
 ### <span style="color:#ffcb05">🌟 Join the </span> <span style="color:#8B1538">R</span><span style="color:#7598b6">ealm</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span> <span style="color:#4ecdc4">Community</span> <span style="color:#3598db">-</span> <span style="color:#8B1538">G</span><span style="color:#7598b6">amers e</span><span style="color:#8B1538">X</span><span style="color:#7598b6">treme!</span> <span style="color:#ffcb05">🌟</span>
@@ -20,15 +20,15 @@
 ---
 
 <!-- GitHub Stats & Badges -->
-[![GitHub release](https://img.shields.io/github/v/release/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=success)](https://github.com/donniedice/PokemonLevelUp/releases)
-[![GitHub stars](https://img.shields.io/github/stars/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=yellow)](https://github.com/donniedice/PokemonLevelUp/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=blue)](https://github.com/donniedice/PokemonLevelUp/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=red)](https://github.com/donniedice/PokemonLevelUp/issues)
-[![GitHub license](https://img.shields.io/github/license/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=lightgrey)](https://github.com/donniedice/PokemonLevelUp/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=success)](https://github.com/RGXMods/PokemonLevelUp/releases)
+[![GitHub stars](https://img.shields.io/github/stars/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=yellow)](https://github.com/RGXMods/PokemonLevelUp/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=blue)](https://github.com/RGXMods/PokemonLevelUp/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=red)](https://github.com/RGXMods/PokemonLevelUp/issues)
+[![GitHub license](https://img.shields.io/github/license/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=lightgrey)](https://github.com/RGXMods/PokemonLevelUp/blob/main/LICENSE)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/donniedice/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/donniedice/PokemonLevelUp/commits/main)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/donniedice/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/donniedice/PokemonLevelUp/graphs/contributors)
-[![GitHub repo size](https://img.shields.io/github/repo-size/donniedice/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/donniedice/PokemonLevelUp)
+[![GitHub last commit](https://img.shields.io/github/last-commit/donniedice/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/RGXMods/PokemonLevelUp/commits/main)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/donniedice/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/RGXMods/PokemonLevelUp/graphs/contributors)
+[![GitHub repo size](https://img.shields.io/github/repo-size/donniedice/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/RGXMods/PokemonLevelUp)
 
 <!-- Platform Badges -->
 [![CurseForge](https://img.shields.io/badge/CurseForge-Downloads-orange?style=flat-square&logo=curseforge)](https://www.curseforge.com/wow/addons/pokemonlevelup)
@@ -85,7 +85,7 @@
 | | |
 |---|---|
 | [![Donate](https://img.shields.io/badge/Donate-CashApp-00C853?style=for-the-badge&logo=cash-app&logoColor=white)](https://bit.ly/3fyxxSU) | [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/donniedice) |
-| [![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/donniedice) | [![Star](https://img.shields.io/badge/⭐-Star%20this%20repository-yellow?style=for-the-badge&logo=github)](https://github.com/donniedice/PokemonLevelUp) |
+| [![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/donniedice) | [![Star](https://img.shields.io/badge/⭐-Star%20this%20repository-yellow?style=for-the-badge&logo=github)](https://github.com/RGXMods/PokemonLevelUp) |
 
 _<span style="color:#e67e23">Every donation helps fund new features and improvements!</span>_
 
@@ -221,7 +221,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
    - [<span style="color:#ff6b6b">CurseForge</span>](https://www.curseforge.com/wow/addons/pokemonlevelup) _(Recommended)_
    - [<span style="color:#b96ad9">Wago.io</span>](https://addons.wago.io/addons/pokemonlevelup)
    - [<span style="color:#4ecdc4">WoWInterface</span>](https://www.wowinterface.com/downloads/info26261)
-   - [<span style="color:#24292e">GitHub</span>](https://github.com/donniedice/PokemonLevelUp/releases)
+   - [<span style="color:#24292e">GitHub</span>](https://github.com/RGXMods/PokemonLevelUp/releases)
 
 2. **<span style="color:#4ecdc4">Extract</span>** <span style="color:#e67e23">to your</span> <span style="color:#06c">WoW</span> <span style="color:#e67e23">AddOns directory</span><span style="color:#3598db">:</span>
    - <span style="color:#e67e23">**Retail**: `World of Warcraft/_retail_/Interface/AddOns`</span>
@@ -283,7 +283,7 @@ volume = "Master"        -- Volume channel
 
 ## <span style="color:#ffcb05">🐛 Known Issues</span>
 
-- <span style="color:#e67e23">No known issues at this time. Report any problems via</span> [<span style="color:#ff6b6b">GitHub Issues</span>](https://github.com/donniedice/PokemonLevelUp/issues) <span style="color:#e67e23">or our</span> [<span style="color:#7289da">Discord</span>](https://discord.gg/N7kdKAHVVF)<span style="color:#e67e23">.</span>
+- <span style="color:#e67e23">No known issues at this time. Report any problems via</span> [<span style="color:#ff6b6b">GitHub Issues</span>](https://github.com/RGXMods/PokemonLevelUp/issues) <span style="color:#e67e23">or our</span> [<span style="color:#7289da">Discord</span>](https://discord.gg/N7kdKAHVVF)<span style="color:#e67e23">.</span>
 
 ---
 
@@ -301,14 +301,14 @@ volume = "Master"        -- Volume channel
 
 **<span style="color:#ff6b6b">Still having trouble?</span>**
 - <span style="color:#e67e23">Join our</span> [<span style="color:#7289da">Discord</span>](https://discord.gg/N7kdKAHVVF) <span style="color:#e67e23">for instant support</span>
-- <span style="color:#e67e23">Open a</span> [<span style="color:#ff6b6b">GitHub Issue</span>](https://github.com/donniedice/PokemonLevelUp/issues)
+- <span style="color:#e67e23">Open a</span> [<span style="color:#ff6b6b">GitHub Issue</span>](https://github.com/RGXMods/PokemonLevelUp/issues)
 
 ---
 
 ## <span style="color:#ffcb05">🤝 Contributing</span>
 
 <span style="color:#e67e23">Contributions are welcome! Feel free to</span><span style="color:#3598db">:</span>
-- <span style="color:#2dc26b">🐛 **Report bugs**</span> <span style="color:#e67e23">via</span> [<span style="color:#b96ad9">GitHub Issues</span>](https://github.com/donniedice/PokemonLevelUp/issues)
+- <span style="color:#2dc26b">🐛 **Report bugs**</span> <span style="color:#e67e23">via</span> [<span style="color:#b96ad9">GitHub Issues</span>](https://github.com/RGXMods/PokemonLevelUp/issues)
 - <span style="color:#ff6b6b">💡 **Suggest features**</span> <span style="color:#e67e23">in our</span> [<span style="color:#7289da">Discord</span>](https://discord.gg/N7kdKAHVVF)
 - <span style="color:#4ecdc4">🌍 **Help with translations**</span> <span style="color:#e67e23">for global players</span>
 - <span style="color:#2dc26b">⭐ **Star the repository**</span> <span style="color:#e67e23">to show your support</span>
@@ -317,7 +317,7 @@ volume = "Master"        -- Volume channel
 
 ## <span style="color:#ffcb05">📄 License</span>
 
-<span style="color:#e67e23">This project is licensed under the</span> [<span style="color:#2dc26b">MIT License</span>](https://github.com/donniedice/PokemonLevelUp/blob/main/LICENSE)<span style="color:#e67e23">.</span>
+<span style="color:#e67e23">This project is licensed under the</span> [<span style="color:#2dc26b">MIT License</span>](https://github.com/RGXMods/PokemonLevelUp/blob/main/LICENSE)<span style="color:#e67e23">.</span>
 
 ---
 
@@ -340,7 +340,7 @@ _<span style="color:#e67e23">"May your levels be swift and your catches be legen
 
 ### <span style="color:#ffcb05">Part of the RGX Mods Collection</span>
 
-[<span style="color:#05dffa">BLU</span>](https://github.com/donniedice/BLU) | [<span style="color:#05dffa">BLU Classic</span>](https://github.com/donniedice/BLU_Classic) | [<span style="color:#9b59b6">CCU</span>](https://github.com/donniedice/CoordinationCloakUtility) | [<span style="color:#ffe568">FFLU</span>](https://github.com/donniedice/FinalFantasyLevelUp) | [<span style="color:#58be81">PetBuddy2</span>](https://github.com/donniedice/PetBuddy2) | [<span style="color:#e74c3c">RND</span>](https://github.com/DonnieDice/RemoveNameplateDebuffs) | [<span style="color:#58be81">SQP</span>](https://github.com/donniedice/SimpleQuestPlates) | [<span style="color:#8B4513">SRLU</span>](https://github.com/donniedice/SkyrimLevelUp)
+[<span style="color:#05dffa">BLU</span>](https://github.com/RGXMods/BLU) | [<span style="color:#05dffa">BLU Classic</span>](https://github.com/RGXMods/BLU_Classic) | [<span style="color:#9b59b6">CCU</span>](https://github.com/RGXMods/CoordinationCloakUtility) | [<span style="color:#ffe568">FFLU</span>](https://github.com/RGXMods/FinalFantasyLevelUp) | [<span style="color:#58be81">PetBuddy2</span>](https://github.com/donniedice/PetBuddy2) | [<span style="color:#e74c3c">RND</span>](https://github.com/RGXMods/RemoveNameplateDebuffs) | [<span style="color:#58be81">SQP</span>](https://github.com/RGXMods/SimpleQuestPlates) | [<span style="color:#8B4513">SRLU</span>](https://github.com/RGXMods/SkyrimLevelUp)
 
 **<img src="media/logo.png" width="18" height="18" alt="PLU logo"> <span style="color:#8B1538">R</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span> <span style="color:#4ecdc4">Mods</span> <span style="color:#3598db">-</span> <span style="color:#e67e23">Powered by</span> [<span style="color:#8B1538">R</span><span style="color:#7598b6">ealm</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span>](https://realmgx.com) <span style="color:#e67e23">Community</span>**
 

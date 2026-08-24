@@ -8,7 +8,7 @@
 ## RequiredDeps: RGX-Framework
 
 ## X-Category: UI Media, Questing & Leveling, Audio & Video, Miscellaneous
-## X-Website: https://github.com/donniedice/PokemonLevelUp
+## X-Website: https://github.com/RGXMods/PokemonLevelUp
 ## X-Curse-Project-ID: 399043
 ## X-Wago-ID: ZQ6aVPKW
 ## X-WoWI-ID: 26261
