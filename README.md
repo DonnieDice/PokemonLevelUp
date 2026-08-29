@@ -13,22 +13,21 @@
 
 ### <span style="color:#ffcb05">⚡ </span> <span style="color:#e67e23">*"Gotta ding 'em all!" — Now in World of Warcraft!*</span> <span style="color:#ffcb05">⚡</span>
 
-**<span style="color:#ffcb05">P</span><span style="color:#3b4cca">okemon </span><span style="color:#ff0000">L</span><span style="color:#3b4cca">evel-</span><span style="color:#2a9d3f">U</span><span style="color:#3b4cca">p!</span> <span style="color:#e67e23">is a professional</span> <span style="color:#06c">World of Warcraft</span> <span style="color:#e67e23">addon that transforms your leveling experience with a Pokemon-inspired level-up sound — across all WoW versions.</span>**
+**<span style="color:#ffcb05">P</span><span style="color:#3b4cca">okemon </span><span style="color:#ff0000">L</span><span style="color:#3b4cca">evel-</span><span style="color:#2a9d3f">U</span><span style="color:#3b4cca">p!</span> <span style="color:#e67e23">is a professional</span> <span style="color:#06c">World of Warcraft</span> <span style="color:#e67e23">addon that transforms your leveling experience with a Pokemon-inspired level-up sound — across supported WoW versions.</span>**
 
 **<span style="color:#ffcb05">🎮 </span> <span style="color:#e67e23">Connect with fellow gamers, get support, and be part of the</span> <span style="color:#8B1538">R</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span> <span style="color:#4ecdc4">Mods</span> <span style="color:#e67e23">family!</span>**
 
 ---
 
 <!-- GitHub Stats & Badges -->
-[![GitHub release](https://img.shields.io/github/v/release/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=success)](https://github.com/RGXMods/PokemonLevelUp/releases)
-[![GitHub stars](https://img.shields.io/github/stars/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=yellow)](https://github.com/RGXMods/PokemonLevelUp/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=blue)](https://github.com/RGXMods/PokemonLevelUp/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=red)](https://github.com/RGXMods/PokemonLevelUp/issues)
-[![GitHub license](https://img.shields.io/github/license/donniedice/PokemonLevelUp?style=for-the-badge&logo=github&color=lightgrey)](https://github.com/RGXMods/PokemonLevelUp/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/RGXMods/PokemonLevelUp?style=for-the-badge&logo=github&color=success)](https://github.com/RGXMods/PokemonLevelUp/releases)
+[![GitHub stars](https://img.shields.io/github/stars/RGXMods/PokemonLevelUp?style=for-the-badge&logo=github&color=yellow)](https://github.com/RGXMods/PokemonLevelUp/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/RGXMods/PokemonLevelUp?style=for-the-badge&logo=github&color=blue)](https://github.com/RGXMods/PokemonLevelUp/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/RGXMods/PokemonLevelUp?style=for-the-badge&logo=github&color=red)](https://github.com/RGXMods/PokemonLevelUp/issues)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/donniedice/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/RGXMods/PokemonLevelUp/commits/main)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/donniedice/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/RGXMods/PokemonLevelUp/graphs/contributors)
-[![GitHub repo size](https://img.shields.io/github/repo-size/donniedice/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/RGXMods/PokemonLevelUp)
+[![GitHub last commit](https://img.shields.io/github/last-commit/RGXMods/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/RGXMods/PokemonLevelUp/commits/main)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/RGXMods/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/RGXMods/PokemonLevelUp/graphs/contributors)
+[![GitHub repo size](https://img.shields.io/github/repo-size/RGXMods/PokemonLevelUp?style=flat-square&logo=github)](https://github.com/RGXMods/PokemonLevelUp)
 
 <!-- Platform Badges -->
 [![CurseForge](https://img.shields.io/badge/CurseForge-Downloads-orange?style=flat-square&logo=curseforge)](https://www.curseforge.com/wow/addons/pokemonlevelup)
@@ -37,7 +36,7 @@
 <!-- WoW Compatibility -->
 [![WoW Retail](https://img.shields.io/badge/WoW-Midnight-ffcb05?style=flat-square&logo=worldofwarcraft)](https://worldofwarcraft.com)
 [![WoW Classic](https://img.shields.io/badge/WoW-Classic%20Era-ffcb05?style=flat-square&logo=worldofwarcraft)](https://worldofwarcraft.com)
-[![WoW Cataclysm](https://img.shields.io/badge/WoW-Cataclysm%20Classic-ffcb05?style=flat-square&logo=worldofwarcraft)](https://worldofwarcraft.com)
+[![WoW TBC](https://img.shields.io/badge/WoW-Burning%20Crusade%20Classic-ffcb05?style=flat-square&logo=worldofwarcraft)](https://worldofwarcraft.com)
 [![WoW Mists](https://img.shields.io/badge/WoW-Mists%20of%20Pandaria-ffcb05?style=flat-square&logo=worldofwarcraft)](https://worldofwarcraft.com)
 
 [Features](#features) • [Quick Start](#quick-start) • [Commands](#command-reference) • [Compatibility](#compatibility) • [Installation](#installation) • [Support](#support)
@@ -100,7 +99,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 - **<span style="color:#2dc26b">🎮 RGX Quality:</span>** <span style="color:#e67e23">Built by the RealmGX community with passion</span>
 - **<span style="color:#ffcb05">🌍 Multi-Language:</span>** <span style="color:#e67e23">Supports English, Russian, German, French, and Spanish</span>
 - **<span style="color:#b96ad9">🛠️ Professional Standards:</span>** <span style="color:#e67e23">Modern WoW addon architecture</span>
-- **<span style="color:#4ecdc4">🎯 Cross-Compatible:</span>** <span style="color:#e67e23">Works across all WoW versions</span>
+- **<span style="color:#4ecdc4">🎯 Cross-Compatible:</span>** <span style="color:#e67e23">Works across supported WoW versions</span>
 - **<span style="color:#ff6b6b">💬 Active Support:</span>** <span style="color:#e67e23">Join our Discord for instant help!</span>
 
 ---
@@ -146,10 +145,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 
 ## <span style="color:#4ecdc4">🎮 WoW Compatibility</span>
 - **<span style="color:#2dc26b">Midnight</span>** (Retail)
-- **<span style="color:#ffcb05">The War Within</span>**
 - **<span style="color:#58be81">Mists of Pandaria Classic</span>**
-- **<span style="color:#b96ad9">Cataclysm Classic</span>**
-- **<span style="color:#ff6b6b">Wrath Classic</span>**
 - **<span style="color:#4ecdc4">Burning Crusade Classic</span>**
 - **<span style="color:#2dc26b">Classic Era</span>**
 
@@ -201,15 +197,14 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 
 | WoW Version | Interface | Status | TOC File |
 |-------------|-----------|--------|----------|
-| **Midnight (Retail)** | `120000` / `120001` | ✅ Fully Supported | `PokemonLevelUp.toc` |
-| **The War Within** | `110207` | ✅ Fully Supported | `PokemonLevelUp.toc` |
-| **Mists of Pandaria Classic** | `50503` | ✅ Fully Supported | `PokemonLevelUp.toc` |
-| **Cataclysm Classic** | `40402` | ✅ Fully Supported | `PokemonLevelUp.toc` |
-| **Wrath of the Lich King Classic** | `30403` | ✅ Fully Supported | `PokemonLevelUp_Wrath.toc` |
-| **Burning Crusade Classic** | `20504` | ✅ Fully Supported | `PokemonLevelUp_TBC.toc` |
-| **Classic Era** | `11508` | ✅ Fully Supported | `PokemonLevelUp_Vanilla.toc` |
+| **Midnight (Retail)** | `120007` | ✅ Fully Supported | `PokemonLevelUp.toc` |
+| **Mists of Pandaria Classic** | `50504` | ✅ Fully Supported | `PokemonLevelUp.toc` |
+| **Burning Crusade Classic** | `20506` | ✅ Fully Supported | `PokemonLevelUp.toc` |
+| **Classic Era** | `11509` | ✅ Fully Supported | `PokemonLevelUp.toc` |
 
 </div>
+
+**<span style="color:#ff6b6b">Required Dependency:</span>** <span style="color:#e67e23">[RGX-Framework](https://github.com/RGXMods/RGX-Framework) must be installed and enabled.</span>
 
 ---
 
@@ -310,12 +305,6 @@ volume = "Master"        -- Volume channel
 - <span style="color:#ff6b6b">💡 **Suggest features**</span> <span style="color:#e67e23">in our</span> [<span style="color:#7289da">Discord</span>](https://discord.gg/N7kdKAHVVF)
 - <span style="color:#4ecdc4">🌍 **Help with translations**</span> <span style="color:#e67e23">for global players</span>
 - <span style="color:#2dc26b">⭐ **Star the repository**</span> <span style="color:#e67e23">to show your support</span>
-
----
-
-## <span style="color:#ffcb05">📄 License</span>
-
-<span style="color:#e67e23">This project is licensed under the</span> [<span style="color:#2dc26b">MIT License</span>](https://github.com/RGXMods/PokemonLevelUp/blob/main/LICENSE)<span style="color:#e67e23">.</span>
 
 ---
 
